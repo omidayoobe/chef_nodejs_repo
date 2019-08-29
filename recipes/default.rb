@@ -13,7 +13,7 @@ end
 include_recipe 'nodejs'
 include_recipe 'apt'
 
-nodejs_npm 'pm2'
+# nodejs_npm 'pm2'
 
 package 'nginx'
 # package 'nodejs'
